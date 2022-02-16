@@ -1,1 +1,20 @@
-<div>Hello</div>
+<div>
+<%= form_with model: @user do |form|%>
+
+<p>
+<%= form.label  :username %> <br>
+<%= form.text_field :username%>
+<p>
+<%= form.label  :email %> <br>
+<%= form.text_field :email %>
+</p>
+<p>
+<%= form.label  :password %> <br>
+<%= form.text_field :password %> <br>
+
+<%= form.submit %>
+
+
+</p>
+<%end%>
+</div>
