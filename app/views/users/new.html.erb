@@ -3,16 +3,16 @@
 
 <p>
 <%= form.label  :username %> <br>
-<%= form.text_field :username%>
+<%= form.text_field :username, placeholder:"Enter your username"%>
 <p>
 <%= form.label  :email %> <br>
-<%= form.text_field :email %>
+<%= form.email_field :email,  placeholder:"Enter your email" %>
 </p>
 <p>
 <%= form.label  :password %> <br>
-<%= form.text_field :password %> <br>
+<%= form.password_field :password %> <br>
 
-<%= form.submit %>
+<%= form.submit "Submit" %>
 
 
 </p>
