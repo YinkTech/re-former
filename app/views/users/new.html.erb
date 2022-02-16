@@ -3,7 +3,7 @@
 
 <p>
 <%= form.label  :username %> <br>
-<%= form.text_field :username, placeholder:"Enter your username"%>
+<%= form.text_field :username, placeholder:"Enter your username", size: "50x10"%>
 <% @user.errors.full_messages_for(:username).each do |message| %>
       <div><%= message %></div>
     <% end %>
@@ -17,7 +17,7 @@
 
 <p>
 <%= form.label  :password %> <br>
-<%= form.password_field :password %> <br>
+<%= form.password_field :password, size: "50x10" %> <br>
 <% @user.errors.full_messages_for(:password).each do |message| %>
       <div><%= message %></div>
     <% end %>
