@@ -62,6 +62,12 @@ Navigate to the new route http://127.0.0.1:3000/users/new
 - Twitter: [@YinkTech](https://twitter.com/yinktech)
 - LinkedIn: [Ayeni Olayinka](https://www.linkedin.com/in/ayeni-olayinka-726181134/)
 
+👤 **Author 3**
+
+* GitHub: [@shadrxcc](https://github.com/shadrxcc)
+* Twitter: [@shadrxcc](https://twitter.com/yinktech)
+* LinkedIn: [Shadrach Akaade](https://linkedin.com/shadrachakaade)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
