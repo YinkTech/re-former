@@ -1,23 +1,7 @@
 <div>
+<p>Edit the user</p>
 <%= form_with model: @user do |form|%>
 
-<p>
-<%= form.label  :username %> <br>
-<%= form.text_field :username%>
-<p>
-<%= form.label  :email %> <br>
-<%= form.text_field :email %>
-</p>
-<p>
-<%= form.label  :password %> <br>
-<%= form.text_field :password %> <br>
-
-<%= form.submit %>
-
-<div>
-<%= form_with model: @user do |form|%>
-
-<p>
 <%= form.label  :username %> <br>
 <%= form.text_field :username, placeholder:"Enter your username", size: "50x10"%>
 <% @user.errors.full_messages_for(:username).each do |message| %>
@@ -44,6 +28,4 @@
 </p>
 <%end%>
 </div>
-</p>
-<%end%>
 </div>

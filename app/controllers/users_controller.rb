@@ -6,7 +6,7 @@ class UsersController < ApplicationController
   def create
     @user = User.create(user_params)
     if @user.save
-      redirect_to new_user_path
+      redirect_to action: 'edit', id: @user.id
     else
       render :new, status: :unprocessable_entity # important to return the error message
 
@@ -20,7 +20,7 @@ class UsersController < ApplicationController
   def update
     @user = User.find(params[:id])
     if @user.update(user_params)
-      redirect_to new_user_path
+      redirect_to edit_user_path
     else
       render :edit, status: :unprocessable_entity
     end
