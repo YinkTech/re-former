@@ -11,7 +11,7 @@ The setups steps expect following tools installed on the system.
 ## 1. Check out the repository
 ```shell
 git clone [git@github.com:YinkTech/re-former.git](https://github.com/YinkTech/re-former)
-cd micro-reddit
+cd re-former
 ```
 
 ## 2. Check your Ruby version
